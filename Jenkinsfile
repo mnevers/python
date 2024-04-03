@@ -8,6 +8,11 @@ pipeline {
 
 			steps {
 				echo 'Building the application...'				
+
+				script {
+					def test = true
+					echo test
+				}
 			}
 
 		}
